@@ -1,0 +1,16 @@
+
+ 1685632267067:::1  GET: /api/users 
+
+ 1685632295223:::1  GET: /api/users 
+
+ 1685632356217:::1  POST: /api/users 
+
+ 1685632445636:::1  DELETE: /api/users/64782a8ef362996a5deabcbe 
+
+ 1685632527748:::1  GET: /api/users 
+
+ 1685632550495:::1  PATCH: /api/users/64782ac5f362996a5deabcc0 
+
+ 1685632570069:::1  GET: /api/users/64782ac5f362996a5deabcc0 
+
+ 1685632595503:::1  GET: /api/users/64782ac5f362996a5deabcc0 

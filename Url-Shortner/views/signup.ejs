@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .container{
+        margin: 50px;
+      }
+      label{
+        font-size: 20px;
+        font-style: italic;padding: 10px;
+
+      }
+      input{
+        width: 300px;
+        height: 30px;
+        margin: 10px;
+      }
+      button{
+        height: 35px;
+        margin: 20px 0% ;
+        padding: 10px;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Signup</h1>
+      <form action="/user" method="POST">
+        <label>Enter your name :</label>
+        <input type="text" required name="name" /><br>
+        <label>Enter your Email :</label>
+        <input type="text" required name="email" /><br>
+        <label>Enter your password :</label>
+        <input type="text" required name="password" /><br>
+
+        <button type="submit">Signup</button>
+      </form>
+    </div>
+  </body>
+</html>
